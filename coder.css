@@ -1,0 +1,17 @@
+.output {
+    width: 200px;
+}
+.input {
+  width: 200px;
+  height: 50px;
+}
+.Keyword {
+  width: 150px;
+  height: 15px;
+}
+.button {
+    background-color: dodgerblue;
+    font-size: 23px;
+    border: none;
+    color: black;
+  }
