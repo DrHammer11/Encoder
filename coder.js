@@ -92,6 +92,7 @@ function Decode() {
 }
 
 function encodeNumber() {
+    output = '';
     toen = document.getElementById("Input").value.toLowerCase();
     if (!(/^[a-zA-Z]+$/.test(toen.replace(/ |,|\.|[0-9]/g, "")))) {
         alert("Error: input must have only letters, numbers, spaces, commas and periods.");
