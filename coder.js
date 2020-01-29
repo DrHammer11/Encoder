@@ -18,7 +18,9 @@ function getType() {
     wto = document.getElementById("l2");
     method = document.getElementById("l3");
     input = document.getElementById("Input").value
-    if (wto.innerHTML.slice(10, wto.innerHTML.length-11)[(wto.innerHTML.slice(10, wto.innerHTML.length-11)).length-1])
+    if (wto.innerHTML.slice(10, wto.innerHTML.length-11)[(wto.innerHTML.slice(10, wto.innerHTML.length-11)).length-1] === '>') {
+        firstime = true;
+    }
     if (firstime) {
         wto.innerHTML = "What to en"+wto.innerHTML.slice(10, wto.innerHTML.length-11)+input.toLowerCase()+'</textarea>';
     }
