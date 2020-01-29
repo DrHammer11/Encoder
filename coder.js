@@ -179,7 +179,7 @@ function decodeNumber() {
     output = '';
     skipnext = 0;
     tode = document.getElementById("Input").value.toLowerCase();
-    if (!(/^\d+$/.test(tode.replace(/ |-|!|@|#|\$|%|^|&|\*|\(|\)/g, "")))) {
+    if (!(/^\d+$/.test(tode.replace(/ |-|!|@|#|\$|%|\^|&|\*|\(|\)/g, "")))) {
         alert("Error: input must have only numbers, spaces, dashes and the Shift+number symbols.");
         return null;
     }
